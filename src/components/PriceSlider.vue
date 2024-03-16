@@ -13,7 +13,7 @@
           style="width: 70px; text-align: center"
           id=""
           v-model="maxAmount"
-          @change="$emit('update:maximum', maxAmount)"
+          @change="$parent.$emit('update:maximum', maxAmount)"
         />
         <input
           type="range"
@@ -23,7 +23,7 @@
           min="0"
           max="150"
           v-model="maxAmount"
-          @input="$emit('update:maximum', maxAmount)"
+          @input="$parent.$emit('update:maximum', maxAmount)"
         />
       </div>
     </div>
