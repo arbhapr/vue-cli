@@ -36,7 +36,7 @@
               <a
                 href="#"
                 class="badge text-bg-danger text-white text-decoration-none"
-                @click.stop="$emit('deleteItem', index)"
+                @click.stop="$emit('delete', index)"
               >
                 -
               </a>

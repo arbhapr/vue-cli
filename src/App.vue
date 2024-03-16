@@ -6,7 +6,7 @@
       :cartQty="cartQty"
       :cartTotal="cartTotal"
       @toggle="toggleSliderStatus"
-      @deleteItem="deleteItem"
+      @delete="deleteItem"
     ></navbar>
     <price-slider
       :sliderStatus="sliderStatus"
