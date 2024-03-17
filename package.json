@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "lint-fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
@@ -21,8 +20,8 @@
     "core-js": "^3.8.3",
     "jquery": "^3.7.1",
     "popper.js": "^1.16.1",
-    "vue": "^2.6.14",
-    "vue-router": "^4.3.0"
+    "vue": "^2.5.17",
+    "vue-router": "^3.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -34,10 +33,12 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-vue": "^8.0.3",
+    "install": "^0.13.0",
+    "npm": "^10.5.0",
     "prettier": "^3.1.0",
     "prettier-eslint": "^16.1.2",
     "vue-eslint-parser": "^8.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
     "root": true,

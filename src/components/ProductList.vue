@@ -7,7 +7,7 @@
     @leave="leave"
   >
     <div
-      class="row d-none mb-3 align-items-center border-bottom p-2"
+      class="row mb-3 align-items-center border-bottom p-2"
       v-for="(item, index) in showItem"
       :key="item.id"
       :data-index="index"
